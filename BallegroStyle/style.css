@@ -3,14 +3,32 @@
 body {
   background-color: white;
 }
+
 h1 {
   color: darkslategrey; font-family: monospace; text-align: center;
 }
+
 .about{
-  border: 2px solid darkslategrey;
+   border: 2px solid darkslategrey;
    padding: 20px 20px 20px 20px;
    margin: 10px 10px 10px 10px;
-background-color: #E2F0F9}
+   background-color: #E2F0F9}
 #title{
   font-family:monospace;font-variant: small-caps; font-size: 50px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  display:inline;
+  border: 2px solid darkslategrey;
+  padding: 10px;
+  margin: 5px;
+  background-color: red
 }
