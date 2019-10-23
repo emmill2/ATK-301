@@ -1,0 +1,28 @@
+/* CSS */
+body{
+  background-image: url(paper.png); font-family: arial;
+  border-top:15px solid #588F93;
+   position:absolute; top: 0px; right: 0px; left:0px; margin:0px auto;
+   border-bottom:15px solid #588F93;
+    position:absolute;
+}
+
+.unlin{
+  font-size: 22px; text-decoration: underline;
+}
+h2{
+  font-size: 30px;
+  line-height: 29px;
+}
+#bruh{
+  font-size: 70px;
+  line-height: 58px;
+  font-weight: 775;
+  transform: scaleY(1.1);
+}
+.uglyboi{
+  color: #588F93;
+}
+h3{
+  line-height: 0px;
+}
