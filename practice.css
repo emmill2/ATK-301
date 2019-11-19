@@ -1,0 +1,29 @@
+body{
+  background-color: #cbcbcb;
+  margin: 0;
+      display: grid;
+        grid-template-columns: .5fr 2fr .5fr;
+        grid-template-rows: 1fr 5fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "..... main ....."
+            "footer footer footer";
+  }
+
+header{
+    grid-area: header;
+    background-color: yellow;
+    display: grid;
+      grid-template-columns: 2fr .5fr;
+      grid-template-rows: 1fr .5fr;
+      grid-template-areas:
+          "Title image"
+  }
+main{
+    grid-area: main;
+    background-color: red;
+  }
+footer{
+  grid-area: footer;
+  background-color: blue;
+}
