@@ -4,9 +4,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
 }
 
 nav li {
@@ -26,6 +24,7 @@ nav li a:hover {
 }
 p{
   font-size: 50px;
+
 }
 body{
   background-color: #C5DCF9;
@@ -33,4 +32,9 @@ body{
 header{
   background-color:#BBFBFD;
 }
-* { box-sizing: border-box; }
+
+body{
+  margin:0;
+  padding:0;
+
+}
