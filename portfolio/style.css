@@ -3,7 +3,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #082959 ;
   position: sticky;
 }
 
@@ -20,17 +20,18 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #111;
+  background-color: #304159;
 }
 p{
   font-size: 50px;
 
 }
 body{
-  background-color: #C5DCF9;
+  background-color: #111;
+  color:#D7E2F2;
 }
 header{
-  background-color:#BBFBFD;
+  background-color:#5A78A6;
 }
 
 body{
