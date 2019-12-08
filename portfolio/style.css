@@ -23,7 +23,7 @@ nav li a:hover {
   background-color: #304159;
 }
 p{
-  font-size: 50px;
+  font-size: 25px;
 
 }
 body{
@@ -36,4 +36,8 @@ header{
 }
 h1{
   margin-top:0
+}
+div{
+  margin:8em;
+  column-count: 2
 }
