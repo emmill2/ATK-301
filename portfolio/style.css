@@ -3,7 +3,6 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #082959 ;
   position: sticky;
 }
 
@@ -29,10 +28,9 @@ p{
 body{
   background-color: #111;
   color:#D7E2F2;
-  margin: 0;
+  margin: 20px 10%;
 }
 header{
-  background-color:#5A78A6;
 }
 h1{
   margin-top:0
@@ -40,4 +38,11 @@ h1{
 div{
   margin:8em;
   column-count: 2
+}
+.icon{
+float: left;
+display: table;
+text-align: left;
+width: 45px;
+height:45px;
 }
