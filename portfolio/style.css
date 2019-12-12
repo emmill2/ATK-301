@@ -7,7 +7,7 @@ nav ul {
 }
 
 nav li {
-  float: left;
+  float: right;
 }
 
 nav li a {
@@ -18,8 +18,9 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover {
-  background-color: #304159;
+nav li a:hover, nav li a:focus{
+
+  text-decoration: underline;
 }
 p{
   font-size: 25px;
@@ -35,14 +36,60 @@ header{
 h1{
   margin-top:0
 }
-div{
-  margin:8em;
-  column-count: 2
-}
+
 .icon{
 float: left;
 display: table;
 text-align: left;
 width: 45px;
 height:45px;
+}
+.socialmedia{
+
+}
+.current {
+  text-decoration: underline;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: .5;
+}
+.container:hover .text {
+  opacity: 1;
+  top:95%;
+  transition:.5s ease;
+}
+
+.text {
+  color: #111;
+  font-size: 20px;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:1
 }
