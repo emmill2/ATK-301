@@ -57,7 +57,7 @@ height:45px;
 
 .image {
   display: block;
-  width: 100%;
+  width: 174%;
   height: auto;
 }
 
@@ -68,10 +68,10 @@ height:45px;
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+  width: 174%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: white;
 }
 
 .container:hover .overlay {
@@ -88,8 +88,14 @@ height:45px;
   font-size: 20px;
   position: absolute;
   top: 120%;
-  left: 50%;
+  left: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  opacity:1
+  opacity:1;
+  width:100%;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr
 }
