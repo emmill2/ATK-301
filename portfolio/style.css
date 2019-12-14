@@ -94,8 +94,17 @@ height:45px;
   opacity:1;
   width:100%;
 }
-main{
+main#projects{
+  margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "left right"
+}
+.left{
+  grid-area: left;
+}
+.right{
+  grid-area: right;
 }
