@@ -86,12 +86,12 @@ margin-top: 30px;
   transition:.5s ease;
 }
 
-.text {
+.imgtext {
   color: #111;
   font-size: 20px;
   position: absolute;
-  top: 120%;
-  left: 100%;
+  bottom:.5%;
+  left: 52%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   opacity:1;
