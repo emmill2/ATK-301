@@ -18,40 +18,43 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover, nav li a:focus{
-
+nav li a:hover, nav li a:focus {
   text-decoration: underline;
 }
-p{
+
+p {
   font-size: 25px;
   padding: 10px;
   text-indent: 5%;
-
 }
-body{
+
+body {
   background-color: #111;
-  color:#D7E2F2;
+  color: #D7E2F2;
   margin: 20px 10%;
-  font-family:verdana;
+  font-family: verdana;
 }
-header{
-}
-h1{
-  margin-top:0
-}
-.icon{
-float: left;
-display: table;
-text-align: left;
-width: 65px;
-height:65px;
-}
-.socialmedia{
 
+header {}
+
+h1 {
+  margin-top: 0
 }
+
+.icon {
+  float: left;
+  display: table;
+  text-align: left;
+  width: 65px;
+  height: 65px;
+}
+
+.socialmedia {}
+
 .current {
   text-decoration: underline;
 }
+
 .container {
   position: relative;
   width: 100%;
@@ -92,44 +95,56 @@ height:65px;
   padding: 16px 32px;
 }
 
-main#projects{
+main#projects {
   margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas:
-  "left right"
+    "left right"
 }
-.left{
+
+.left {
   grid-area: left;
-  padding:20px;
+  padding: 20px;
 }
-.right{
+
+.right {
   grid-area: right;
-  padding:20px;
+  padding: 20px;
 }
-div.headshot img{
+
+div.headshot img {
   height: auto;
   width: 15%;
   float: left;
   padding: 10px;
 }
+
 /*submit form from w3schools*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #2C47A8;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -139,7 +154,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #273F96;
 }
 
 /* Add a background color and some padding around the form */
